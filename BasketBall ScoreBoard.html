@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset= UTF-8>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="BasketBall ScoreBoard.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div>
+                <h3 class="Top">HOME</h3>
+                <h2 class="Top2" id="home-score">0</h2>
+                <div points1>
+                <button class="points2" onclick="addHome1()">+1</button>
+                <button class="points2" onclick="addHome2()">+2</button>
+                <button class="points2" onclick="addHome3()">+3</button>
+                </div>
+            </div>
+            <div class="Time" id="timer">
+                <span id="Minutes">00</span>
+                <span>:</span>
+                <span id="Seconds">00<span>
+            </div>
+            <div>
+                <h3 class="Top">GUEST</h3>
+                <h2 class="Top2" id="guest-score">0</h2>
+                <div class="points1">
+                <button class="points2" onclick="addGuest1()">+1</button>
+                <button class="points2" onclick="addGuest2()">+2</button>
+                <button class="points2" onclick="addGuest3()"> +3</button>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="BasketBall ScoreBoard.js"></script>
+    </body>
+</html>
